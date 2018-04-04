@@ -1,0 +1,282 @@
+body{
+	background:#fff; 
+}
+.topnav {
+  
+    overflow: hidden;
+	margin-left: 174px;
+	margin-top: 0px;
+}
+#logo-img{}
+.topnav a {
+    
+    color: #000;
+    text-align: center;
+    padding: 14px 8px;
+    text-decoration: none;
+    font-size: 14px;
+	font-weight:bold;
+}
+.topnav span{
+	PADDING-TOP:2PX;
+}
+.topnav_a{
+	padding-top: 10px;
+	width: 350px;
+	margin-bottom: 0;
+	display: inline-block;
+}
+.topnav_right_nav{
+	margin-top: 6px;
+}
+.topnav_right_nav p{
+	font-weight:bold;
+	
+	margin-left: 0;
+	float: right;
+
+}
+.topnav_right_nav span{
+	margin-left:6px;
+}
+.topnav_right_bottom_nav{
+	color: #fff;
+	font-size: 11px;
+	float:right;
+	margin-right: 6px;
+}
+
+
+#btn_order_report{
+	padding:10px;
+	background:#000;
+	font-weight:bold;
+	padding-left: 20px;
+	padding-right: 19px;
+}
+#btn_pre_sale{
+	padding:10px;
+	background:linear-gradient(green, yellow);
+	font-weight:bold;
+	padding-left: 20px;
+	padding-right: 19px;
+
+}
+.img_overlay{
+	background-color:rgba(0,0,0,0.5);
+	height:100px;
+	width:100%;
+	position:absolute;
+	z-index:9;
+}
+
+
+.carousel-caption{
+	padding-bottom: 154px !important;
+}
+.carousel-caption h1{ 
+	background-color:#92C83F;
+	display:inline;
+}
+.carousel-caption p{ 
+	background-color:#008854;
+	width: 369px;
+	margin-left: 209px;
+}
+#searchbar{
+	width: 74%;
+	height: 67px;
+	margin-left: 13px;	
+	color: black;
+}
+.search_button{
+	height:18px;
+	background-color:#000;
+	padding: 26px;
+	padding-left: 30px;
+	padding-right: 30px;
+}
+.search_button a{
+	text-decoration:none;
+	color:#fff;
+
+}
+.img{
+	margin-left: 125px;	
+	border-right: 1px solid gainsboro;	
+
+}
+.caption{
+	text-align: center;
+	font-weight:bold;
+	position:relative;
+}
+.paragraph{
+	text-align: center;
+}
+.latest_reports{
+	background-color:#F5F5F7;
+	padding:20px;
+}
+.cards{
+
+	border-left:1px solid;
+	border-right:1px solid;
+	border-bottom:1px solid;
+	transition:0.5s;
+	background-color:black;
+	text-align:center;
+	color:#fff;
+}
+.cards:hover{
+	box-shadow: 0px 0px 10px #000;
+	border:0;
+	background-color:black;
+}
+.btn_view_more{
+	background-color:#92C83F;
+	width: 169px;
+	height: 81px;
+	font-size: 20px;
+}
+.view_more{
+	margin-top:40px;
+}
+.latest_reports_head{
+	padding: 39px;
+}
+#girl{
+	float:right;
+	margin-top: -63px;
+}
+.banner-para h2{
+	color:#92C83F;
+	font-weight:bold;
+}
+
+.banner-para{
+	padding:40px;	
+	}
+.banner-number{
+	font-size:48px;
+}
+.banner-btn{
+	background-color:#93C73E;
+	font-size: 14px;
+	padding: 13px;
+	font-weight: bold;
+}
+.banner-green{
+	text-align:center;
+	background:linear-gradient(green, yellow);
+	padding: 40px;
+}
+.banner-green p{
+	font-size:20px;
+	text-decoration:italic;
+}
+.banner-number-btn{
+	font-size:25px;
+	background-color:#92C83F;
+	padding:10px;
+}
+.footer h3{
+	color:#92C83F;
+	text-align:center;
+}
+.footer h2{
+	margin-left:35px;
+	color:#fff;
+}
+.footer{
+	background-color:#65787F;
+}
+.footer ul {
+	list-style-type:none;
+
+}
+.footer ul li{
+	color:#fff;
+}
+.contact--us span{
+	padding-left:5px;
+}
+.contac--us{
+    margin-left: 218px;
+}
+.contac--us ul {
+	margin-left: 10px;
+
+}
+.contac--us ul li {
+	color:#92C83F;
+
+}
+#fa span{
+	width: 30px;
+	height: 30px;
+	border-radius: 50%;
+	border: 1px solid #fff;
+	padding: 20px;
+	color:#fff;
+	padding-left: 9px;	
+	padding-top: 7px;
+}
+.social_icons{
+	margin-left: 42px;			
+}
+.glyphicon{
+	color:#fff;
+}
+.copyright{
+	color:#fff;
+	text-align:center;
+
+	}
+	
+	
+	@media(max-width : 767px ){
+	
+		#logo-img{
+		height: 54px;
+		}
+		.topnav_right_nav p {
+		float: left;
+		}
+		.topnav {
+    overflow: hidden;
+    margin-left: -17px;
+    margin-top: 0px;
+	}
+	.topnav a {
+    padding: 9px 7px;
+    font-size: 13px;
+    font-weight: bold;
+	}
+	
+	.carousel-caption p {
+    
+    width: 266px;
+    margin-left: -22px;
+	}
+	#searchbar {
+    width: 62%;
+    height: 42px;
+    margin-left: 2px;
+	}
+	
+	.search_button {
+    height: 11px;
+
+    padding: 11px;
+    padding-left: 0;
+    padding-right: 6px;
+}
+	.img {
+    margin-left: 76px;
+	}
+.contac--us {
+    margin-left: -26px;
+	}
+	}
+	
